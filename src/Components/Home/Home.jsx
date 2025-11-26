@@ -9,11 +9,12 @@ bg-[radial-gradient(circle_at_30%_30%,_rgba(0,255,200,0.08),_transparent_80%)]
 justify-items-center pt-12 px-8 pb-4 min-h-screen">
 
         <div className="home-top flex flex-row items-center  w-full justify-center gap-8 ">
+             <div className="w-[600px] left-5 h-[270px] bg-cyan-600/30 rounded-full blur-3xl absolute "></div>
           <div className="photo-container w-sm h-[310px] flex items-center flex-[0_10_380px] justify-evenly animate-slidephoto ">
             <div 
             className="photo-ring border border-dashed  border-2 border-cyan-400/60  w-[300px] h-[300px] absolute rounded-full animate-round  mt-[23px]">
             </div>
-            <div className="w-[600px] left-5 h-[270px] bg-cyan-600/30 rounded-full blur-3xl absolute"></div>
+            
             <div className="photo-frame animaton animate-wiggle ">
                 <img
                   className="rounded-full w-[270px] h-[270px] border-3 border-[#00b4ff] animate-image"
@@ -21,6 +22,7 @@ justify-items-center pt-12 px-8 pb-4 min-h-screen">
                 />
               </div>
           </div>
+       
           <div className="home-info w-[792px] animate-slidetitle ">
             <h1 className="home-title text-5xl font-bold mt-[15px] mb-[10px] ">
               Hi, I'm<span className="tracking-wide"> Ashutosh Maran</span>
@@ -36,10 +38,12 @@ justify-items-center pt-12 px-8 pb-4 min-h-screen">
 
               className="text-[20px] text-[#ffffffd9] mt-[7px] mb-[20px] "
             >
-              Computer Science Engineer | Frontend Developer | Tech Explorer
-            </p>
+              Computer Science Engineer | Frontend Developer | Tech Explorer  
+                          </p>
             <div className="proffession-tags text-[#ffffffd9]  text-[15px] gap-x-4 gap-y-4  mt-[18.4px] flex flex-wrap  ">
-              <div className="px-[16px] py-[8px]  bg-[#ffffff0d] border border-[#00b4ff] rounded-full  transition-transform  duration-200  hover:scale-110 hover:bg-linear-to-r from-[#00b4ff] to-[#00ffe0]">
+              
+              
+              <div className="px-[16px] py-[8px] bg-[#ffffff0d] border border-[#00b4ff] rounded-full  transition-transform  duration-200  hover:scale-110 hover:bg-linear-to-r from-[#00b4ff] to-[#00ffe0] ">
                 AI Enthusiast
               </div>
               <div className="px-[16px] py-[8px] bg-[#ffffff0d] border border-[#00b4ff] rounded-full  transition-transform  duration-200  hover:scale-110 hover:bg-linear-to-r from-[#00b4ff] to-[#00ffe0]">

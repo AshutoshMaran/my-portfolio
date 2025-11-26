@@ -24,6 +24,38 @@
   --animate-card: card 0.4s linear  forwards;
    --animate-about:about 3s;
   --animate-list:list 4s;
+--animate-post:post 2s ease-in-out  forwards;
+--animate-myblog:myblog 1s ease-in-out  ;
+
+
+@keyframes myblog {
+  0%{
+    transform:translateY(-10px);
+    opacity:0;
+  }
+  
+  100%{
+    transform:translateY(0px);
+    opacity:1;
+  }
+  
+}
+
+@keyframes post {
+
+  0%{
+    transform:scale(1);
+  
+  }
+  
+  100%{
+    transform:scale(1.03);
+  
+  }
+  
+}
+
+
 
 
   

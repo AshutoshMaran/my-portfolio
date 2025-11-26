@@ -7,7 +7,7 @@ const Navbar = () => {
     setActive(pathname)
   },[pathname])
   return (
-    <nav className="sticky top-0 z-100">
+    <nav className="sticky top-0 z-100 border border-b-gray-800 shadow-lg ">
       <div className="bg-black flex flex-row items-center    pt-4 pb-4 pr-6 pl-6 text-white">
         <div className="flex flex-row items-center gap-3">
           <div className="font-bold text-2xl text-[#00b4ff] animate-zoom" >AM</div>
