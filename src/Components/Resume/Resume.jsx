@@ -43,6 +43,7 @@ const Resume = () => {
         </ul>
       </div>
       <div className='projects'>
+        
         <h4>💼 Projects</h4>
         <ul>
           <li>1️⃣ Breast Cancer Detection from Mammograms using YOLO & CNN</li>
