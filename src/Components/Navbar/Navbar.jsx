@@ -23,9 +23,9 @@ const Navbar = () => {
               transition-all duration-300 ease-in-out 
               shadow-[0_0_15px_3px_#00b4ff] rounded-full animate-underline
 
-          ${ active=="/home" ? "translate-x-2 w-8 " : active=="/projects" ? "translate-x-20 w-12 ml-1" : active=="/gallery"? "translate-x-44 w-10 ml-0":active=="/skills"?"translate-x-63.5 w-7 ml-0.5":active=="/Certificates"?"translate-x-80 w-17 ml-2.5":active=="/blog"?"translate-x-100 w-9 ml-10.5":active=="/resume"?"translate-x-120 w-12 ml-9.5":active=="/about"?"translate-x-150 w-15 ml-2":active=='/contact'?"translate-x-175 w-12 ml-3.5":"translate-x-2 w-8"}`}
+          ${ active=="/" ? "translate-x-2 w-8 " : active=="/projects" ? "translate-x-20 w-12 ml-1" : active=="/gallery"? "translate-x-44 w-10 ml-0":active=="/skills"?"translate-x-63.5 w-7 ml-0.5":active=="/Certificates"?"translate-x-80 w-17 ml-2.5":active=="/blog"?"translate-x-100 w-9 ml-10.5":active=="/resume"?"translate-x-120 w-12 ml-9.5":active=="/about"?"translate-x-150 w-15 ml-2":active=='/contact'?"translate-x-175 w-12 ml-3.5":"translate-x-2 w-8"}`}
       ></div>
-         <NavLink to="/home">
+         <NavLink to="/">
   {({ isActive }) => (
     <div className="transition-transform hover:scale-110 ">
       <span

@@ -26,7 +26,72 @@
   --animate-list:list 4s;
 --animate-post:post 2s ease-in-out  forwards;
 --animate-myblog:myblog 1s ease-in-out  ;
+--animate-gallery:gallery 10s ease-in-out forwards ;  ;
+--animate-gallery_up:gallery_up 1s ;
+--animate-gallery_text:gallery_text 2s ;
+--animate-gallery_text2:gallery_text2 2.5s ;
 
+
+@keyframes gallery_text2 {
+  0%{
+    transform:translateY(10px);
+    opacity:0;   
+  }
+  50%{
+      transform:translateY(5px);
+      opacity:0;
+  }
+
+  100%{
+    transform:translateY(0px);
+     opacity:1;
+  }
+  
+}
+
+@keyframes gallery_text {
+  0%{
+    transform:translateY(20px);
+    opacity:0;   
+  }
+  50%{
+    transform:translateY(10px);
+    opacity:0;
+  }
+  100%{
+    transform:translateY(0px);
+     opacity:1;
+  }
+  
+}
+
+
+@keyframes gallery_up {
+  0%{
+    transform:translateY(100px);
+    opacity:0;   
+  }
+  
+  100%{
+    transform:translateY(0px);
+     opacity:1;
+  }
+  
+}
+
+
+@keyframes gallery {
+  0%{
+    transform:translateY(-10px);
+   
+  }
+  
+  100%{
+    transform:translateY(-10px);
+  
+  }
+  
+}
 
 @keyframes myblog {
   0%{
